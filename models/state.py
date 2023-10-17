@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-"""Defines the Class State"""
+"""Defines the State class."""
 from models.base_model import BaseModel
 
+
 class State(BaseModel):
-       name = ""
+    """Represent a state.
 
-       def __init__(self, *args, **kwargs):
-"""Initialize a new User object.
-        Args:
-            args: Non-keyword arguments
-            kwargs: Keyword arguments for initializing attributes"""
+    Attributes:
+        name (str): The name of the state.
+    """
 
-            super().__init__(*args, **kwargs)
+    name = ""
